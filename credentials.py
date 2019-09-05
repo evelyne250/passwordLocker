@@ -8,3 +8,10 @@ class Credentials:
     def __init__(self, account_name, account_password):
         self.account_name = account_name
         self.account_password = account_password
+
+    def save_credentials(self):
+        '''
+        save credentials method that stores new credentials into our list
+        '''
+        Credentials.credentials_list.append(self)
+
