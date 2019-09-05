@@ -42,6 +42,18 @@ class TestCredentials(unittest.TestCase):
         '''
         Credentials.credentials_list = []
 
+    def test_delete_credential(self):
+            '''
+            test_delete_credential test if we can remove a credential from our list of credentials
+            '''
+            self.new_credential.save_credentials()
+            test_credentials = Credentials("instagram", "eve64@78")  # new credential
+            test_credentials.save_credentials()
+
+            self.new_credential.delete_credential()  # Deleting a credential's object
+            self.assertEqual(len(Credentials.credentials_list), 1)
+
+
 
 if __name__ == '__main__':
     unittest.main()
