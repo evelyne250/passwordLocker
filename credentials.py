@@ -23,3 +23,18 @@ class Credentials:
         '''
 
         Credentials.credentials_list.remove(self)
+
+    @classmethod
+    def find_by_name(cls,account_name):
+        '''
+        Method that takes in a name and returns credentials that matches that name.
+
+        Args:
+            name: name of the social media to search for
+        Returns :
+            Credential of person that matches the name.
+        '''
+
+        for credentials in cls.credentials_list:
+            if credentials.account_name == account_name:
+                return credentials
