@@ -1,2 +1,56 @@
 # passwordLocker
 An application that will help us manage our passwords and even generate new passwords
+
+## Author
+* Names: Evelyne Umuhire
+* github account: evelyne250
+* Email: uevelyne44@gmail.com
+
+## Description
+On Average, a person has at least 7 different accounts he or she has signed into, be it email, social media, entertainment or job portal accounts. It becomes really hard to remember all those passwords and even create new ones. This application will help us manage our passwords and even generate new passwords for us.
+
+A user will be able to:
+* Create an account with their details - log in and password.
+* Store their existing login credentials.
+* Generate a password for a new credential/account.
+
+### Prerequisites
+
+The following are needed for the application to run on a local computer:
+* python version 3.6
+* pyperclip
+
+
+## Getting Started
+* Clone this repository to your local computer.
+* you should have python3.6 installed in your computer.
+* Go to the terminal enter git clone https://github.com/evelyne250/passwordLocker.git
+* Run python3.6 run.py code in the terminal to launch.
+* Once you launch, You can either create a new account, or login or exit the application.
+* Once logged in, you can:
+```
+     1: add credentials.
+     2: create new credentials.
+     3: find credentials.
+     4: copy credentials.
+     5: delete credentials
+     5: exit.
+```
+
+## Technologies used
+* python version 3.6 
+
+
+
+## License 
+MIT License
+
+Copyright (c) 2019 evelyne250
+
+Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the "Software"), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE. 
+
+Copyright (c) 2019 evelyne250
