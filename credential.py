@@ -49,7 +49,7 @@ class Credential:
 		Credential.list_of_credentials.remove(self)
   
 
-	def generate_password(size=8, char=string.ascii_uppercase+string.ascii_lowercase+string.digits):
+	def generate_password(size=8, char=string.ascii_lowercase+string.ascii_lowercase+string.digits):
 		'''
 		Function to generate a secure 8 character password for a user.
 		'''

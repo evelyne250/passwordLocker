@@ -133,7 +133,7 @@ def main():
 
                 while True:
                     print("-"*30)
-                    print('Our short codes: \n ac-Add existing Credential \n cc-Create a Credential \n sc-Show Credentials \n fc- Find a Credential  \n cp-Copy Password \n rc- Delete account \n ex-Exit' )
+                    print('Our short codes: \n ac-Add existing Credential \n cc-Create a Credential \n sc-Display Credentials \n fc- Find a Credential  \n cp-Copy Password \n rc- Delete account \n ex-Exit' )
                     print('\n')
                     short_code = input('Enter a choice: ').lower()
                     print("-"*20)
